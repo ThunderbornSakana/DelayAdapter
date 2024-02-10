@@ -1,0 +1,69 @@
+[
+    {
+      "split": "criteo_1",
+      "use": false,
+      "params": {
+        "dataset": "criteo",
+        "train_start": 0,
+        "train_end": 57,
+        "num_test": 1,
+        "save_path": "../../data/criteo"
+      }
+    },
+    {
+      "split": "criteo_2",
+      "use": false,
+      "params": {
+        "dataset": "criteo",
+        "train_start": 1,
+        "train_end": 58,
+        "num_test": 1,
+        "save_path": "../../data/criteo"
+      }
+    },
+    {
+      "split": "criteo_3",
+      "use": false,
+      "params": {
+        "dataset": "criteo",
+        "train_start": 2,
+        "train_end": 59,
+        "num_test": 1,
+        "save_path": "../../data/criteo"
+      }
+    },
+    {
+        "split": "tencent_1",
+        "use": false,
+        "params": {
+          "dataset": "tencent",
+          "train_start": 0,
+          "train_end": 9,
+          "num_test": 1,
+          "save_path": "../../data/tencent"
+        }
+    },
+    {
+        "split": "tencent_2",
+        "use": true,
+        "params": {
+          "dataset": "tencent",
+          "train_start": 1,
+          "train_end": 10,
+          "num_test": 1,
+          "save_path": "../../data/tencent"
+        }
+    },
+    {
+        "split": "taobao_1",
+        "use": false,
+        "params": {
+          "dataset": "taobao",
+          "train_start": 0,
+          "train_end": 6,
+          "num_test": 1,
+          "save_path": "../../data/taobao",
+          "midpoint": false
+        }
+    }
+]
