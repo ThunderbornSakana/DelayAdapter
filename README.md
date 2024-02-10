@@ -24,3 +24,4 @@ In `./src/configs.json`, get the `tag` ID of the hyperparameter combination that
 ```bash
 python main.py --device_idx 0 --tag 0
 ```
+The evaluation results at each epoch are saved under `./checkpoints`.
