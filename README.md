@@ -11,4 +11,5 @@ First, make the following directories:
 - `./data/taobao`
 - `./data/tencent`
 - `./checkpoints`
-Then, download Criteo from 
+
+Then, download Criteo from [Criteo](https://labs.criteo.com/2013/12/conversion-logs-dataset/) and put raw data in `./data/criteo`
