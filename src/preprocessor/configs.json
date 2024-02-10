@@ -45,7 +45,7 @@
     },
     {
         "split": "tencent_2",
-        "use": true,
+        "use": false,
         "params": {
           "dataset": "tencent",
           "train_start": 1,
